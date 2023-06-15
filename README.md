@@ -1,6 +1,8 @@
 # NodeReactGitTest
-#React Node APP bez poveznice na bazu podataka
-#Lokalno okruženje 
+
+React Node APP bez poveznice na bazu podataka
+
+Lokalno okruženje 
 
 
 BackEnd  server direktorij
