@@ -4,10 +4,12 @@ React Node APP bez poveznice na bazu podataka
 
 Lokalno okruženje 
 
-
 BackEnd  server direktorij
+
 Node + Express server as an API
+
 -PORT : 1001
+
 -Link : http://localhost:1001/api
       : http://192.168.0.200:1001/api
         -Pokretanje  : node server/index.js
