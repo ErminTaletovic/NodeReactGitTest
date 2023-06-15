@@ -1,0 +1,19 @@
+React Node APP bez poveznice na bazu podataka
+
+BackEnd  server direktorij
+Node + Express server as an API
+-PORT : 1001
+-Link : http://localhost:1001/api
+      : http://192.168.0.200:1001/api
+
+POVEZNICA IZMEĐU Node I React // PROXY
+"proxy": "http://localhost:1001",
+
+FrontEnd client directorij
+React
+
+Setup PORTA za aplikaciju
+Create a .env file set port PORT=1000
+-PORT : 1000
+-Link : http://localhost:1000
+      : http://192.168.0.200:1000
