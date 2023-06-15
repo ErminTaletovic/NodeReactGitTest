@@ -1,0 +1,47 @@
+Git terminal
+Kreiranje Git repozitorija iz postojećeg koda/projekta u lokalnom okruženju
+
+$ cd /path/to/my/codebase
+$ git init      (1)
+$ git add .     (2)
+$ git commit    (3)
+Create a /path/to/my/codebase/.git directory.
+Add all existing files to the index.
+Record the pristine state as the first commit in the history.
+
+Transfer/push  Git --> Github 
+
+GitHub
+
+Kreiranje repozitorija na Github
+https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository
+NPR. https://github.com/talebih/NodeReactTest.git
+
+Upload repouzitorija na Github // Git Bash terminal
+git remote add origin https://github.com/talebih/NodeReactTest.git
+git branch -M main
+git push -u origin main
+
+
+New branch u lokalnom okruženju -- dodani novi dokumenti   ///new-branch
+git switch -c new-branch
+
+Potvrda kreiranja 
+git branch -a
+main
+* new-branch
+remotes/origin/HEAD -> origin/main
+remotes/origin/main
+remotes/origin/new-branch
+
+With a new branch created, the –set-upstream switch must be run the first time a push is performed. 
+This step tells the new branch which remote repository to use every time it synchronizes its commit history.
+
+github@branch/c/remote/push (new-branch)
+$ git push –set-upstream origin new-branch
+Enumerating objects: 3, done.
+* [new branch] new-branch -> new-branch
+Branch ‘new-branch’ set up to track remote branch ‘new-branch’ from ‘origin’.
+
+git push --set-upstream origin new-branch
+
